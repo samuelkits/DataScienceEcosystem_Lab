@@ -1,0 +1,11 @@
+//Q1
+employee_name = input("Enter Employee Name: ")
+employee_id = input("Enter Employee ID: ")
+monthly_salary = float(input("Enter Monthly Salary (in ₹): "))
+
+print("\n--- Employee Details ---")
+print(f"Name           : {employee_name}")
+print(f"Employee ID    : {employee_id}")
+print(f"Monthly Salary : ₹{monthly_salary:,.2f}")
+
+//Q2
